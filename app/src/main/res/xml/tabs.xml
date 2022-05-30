@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        drawable="@drawable/user_24"
+        text="@string/feed" />
+
+    <tab
+        drawable="@drawable/user_24"
+        text="@string/comp" />
+
+    <tab
+        drawable="@drawable/user_24"
+        text="@string/create" />
+
+    <tab
+        drawable="@drawable/user_24"
+        text="@string/profile" />
+
+    <tab
+        drawable="@drawable/user_24"
+        text="@string/lobby" />
+
+
+</tabs>
