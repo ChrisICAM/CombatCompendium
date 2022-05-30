@@ -1,0 +1,307 @@
+<resources>
+    <string name="app_name">Combat Compendium</string>
+    <string name="lobby">Lobby</string>
+    <string name="feed">My Feed</string>
+    <string name="comp">Compendium</string>
+    <string name="create">Create</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Settings</string>
+
+    <string name="game_DB">Dragon Ball FighterZ</string>
+    <string name="game_MB">Melty Blood</string>
+    <string name="game_TK">Tekken</string>
+    <string name="game_UNI">UNICLR</string>
+    <string name="game_DS">Demon Slayer</string>
+    <string name="game_SF">Street Fighter</string>
+    <string name="game_GG">Guilty Gear</string>
+    <string name="game_p4">Persona 4</string>
+    <string name="game_MK">Mortal Kombat</string>
+
+    <string-array name="gameTitle">
+        <item>Dragon Ball FighterZ</item>
+        <item>Melty Blood Type Lumina</item>
+        <item>UNICLR</item>
+        <item>Demon Slayer Hinokami Chronicles</item>
+        <item>Street Fighter 5</item>
+        <item>Guilty Gear Strive</item>
+        <item>Persona 4 Arena Ultimax</item>
+        <item>Mortal Kombat 11</item>
+    </string-array>
+
+    <string name="btn_univeral">Universal Terms</string>
+    <string name="title_allGames">Game Select</string>
+    <string name="title_activity_char_select">CharSelect</string>
+
+    <string-array name="UniChar">
+        <item>Akatsuki</item>
+        <item>Byakuya</item>
+        <item>Carmine</item>
+        <item>Chaos</item>
+        <item>Eltnum</item>
+        <item>Enkidu</item>
+        <item>Gordeau</item>
+        <item>Hilda</item>
+        <item>Hyde</item>
+        <item>Linne</item>
+        <item>Londrekia</item>
+        <item>Merkava</item>
+        <item>Mika</item>
+        <item>Nanase</item>
+        <item>Orie</item>
+        <item>Phonon</item>
+        <item>Seth</item>
+        <item>Vatista</item>
+        <item>Wagner</item>
+        <item>Waldstein</item>
+        <item>Yuzuriha</item>
+    </string-array>
+
+    <string-array name="p4Char">
+        <item>Adachi</item>
+        <item>Aigis</item>
+        <item>Akihiko</item>
+        <item>Chie</item>
+        <item>Elizabeth</item>
+        <item>Junpei</item>
+        <item>Kanji</item>
+        <item>Ken and Koro</item>
+        <item>Labrys</item>
+        <item>Margaret</item>
+        <item>Marie</item>
+        <item>Minazuki</item>
+        <item>Mitsuru</item>
+        <item>Naoto</item>
+        <item>Rise</item>
+        <item>Sho</item>
+        <item>Shadow Labrys</item>
+        <item>Teddie</item>
+        <item>Yosuke</item>
+        <item>Yu</item>
+        <item>Yukari</item>
+        <item>Yukiko</item>
+    </string-array>
+
+    <string-array name="MBChar">
+        <item>Akiha</item>
+        <item>Aoko</item>
+        <item>Arcueid</item>
+        <item>Ciel</item>
+        <item>DA Noel</item>
+        <item>Hisui and Kohaku</item>
+        <item>Hisui</item>
+        <item>Kohaku</item>
+        <item>Kouma</item>
+        <item>Mario</item>
+        <item>Miyako</item>
+        <item>Noel</item>
+        <item>Powered Ciel</item>
+        <item>Red Arcueid</item>
+        <item>Roa</item>
+        <item>Saber</item>
+        <item>Shiki</item>
+        <item>Vlov</item>
+    </string-array>
+
+    <string-array name="GGChar">
+        <item>Anji</item>
+        <item>Axl</item>
+        <item>Baiken</item>
+        <item>Chipp</item>
+        <item>Faust</item>
+        <item>Giovanna</item>
+        <item>Goldlewis</item>
+        <item>Happy Chaos</item>
+        <item>I-No</item>
+        <item>Jack-O</item>
+        <item>Ky</item>
+        <item>Leo</item>
+        <item>May</item>
+        <item>Millia</item>
+        <item>Nagoriyuki</item>
+        <item>Potemkin</item>
+        <item>Ramlethal</item>
+        <item>Sol</item>
+        <item>Testament</item>
+        <item>Zato</item>
+    </string-array>
+
+    <string-array name="DSChar">
+        <item>Akaza</item>
+        <item>Enmu</item>
+        <item>Giyu</item>
+        <item>Hinokami Tanjiro</item>
+        <item>Inosuke</item>
+        <item>Makomo</item>
+        <item>Murata</item>
+        <item>Nezuko</item>
+        <item>Rengoku</item>
+        <item>Rui</item>
+        <item>Sabito</item>
+        <item>Shinobu</item>
+        <item>Susamaru</item>
+        <item>Tanjiro</item>
+        <item>Tengen</item>
+        <item>Urokodaki</item>
+        <item>Yahaba</item>
+        <item>Yushiro and Tamayo</item>
+        <item>Zenitsu</item>
+    </string-array>
+
+    <string-array name="MKChar">
+        <item>Baraka</item>
+        <item>Cassie</item>
+        <item>Cetrion</item>
+        <item>D\'Vorah</item>
+        <item>Erron Black</item>
+        <item>Frost</item>
+        <item>Fujin</item>
+        <item>Geras</item>
+        <item>Jacqui</item>
+        <item>Jade</item>
+        <item>Jax</item>
+        <item>Johnny Cage</item>
+        <item>The Joker</item>
+        <item>Kabal</item>
+        <item>Kano</item>
+        <item>Kitana</item>
+        <item>Kollector</item>
+        <item>Kotal Kahn</item>
+        <item>Kung Lao</item>
+        <item>Liu Kang</item>
+        <item>Mileena</item>
+        <item>Nightwolf</item>
+        <item>Noob Saibot</item>
+        <item>Raiden</item>
+        <item>Rain</item>
+        <item>Rambo</item>
+        <item>Robocob</item>
+        <item>Scorpion</item>
+        <item>Shang Tsung</item>
+        <item>Shao Kahn</item>
+        <item>Sheeva</item>
+        <item>Sindel</item>
+        <item>Skarlet</item>
+        <item>Sonya Blade</item>
+        <item>Spawn</item>
+        <item>Sub-Zero</item>
+        <item>Terminator</item>
+    </string-array>
+
+    <string-array name="DBChar">
+        <item>Android 16</item>
+        <item>Android 17</item>
+        <item>Android 18</item>
+        <item>Android 21</item>
+        <item>Adult Gohan</item>
+        <item>Baby</item>
+        <item>Bardock</item>
+        <item>Beerus</item>
+        <item>Base Goku</item>
+        <item>Base Vegeta</item>
+        <item>Cell</item>
+        <item>Cooler</item>
+        <item>Frieza</item>
+        <item>Ginyu</item>
+        <item>Goku</item>
+        <item>Goku Black</item>
+        <item>Gotenks</item>
+        <item>GT Goku</item>
+        <item>Hit</item>
+        <item>Janemba</item>
+        <item>Jiren</item>
+        <item>Kid Buu</item>
+        <item>Kefla</item>
+        <item>Krillin</item>
+        <item>Majin 21</item>
+        <item>Majin Buu</item>
+        <item>Nappa</item>
+        <item>Piccolo</item>
+        <item>Master Roshi</item>
+        <item>SS4 Gogeta</item>
+        <item>SSB Gogeta</item>
+        <item>SSB Goku</item>
+        <item>SSB Vegeta</item>
+        <item>Super Broly</item>
+        <item>Teen Gohan</item>
+        <item>Tien</item>
+        <item>Trunks</item>
+        <item>UI Goku</item>
+        <item>Vegeta</item>
+        <item>Vegito</item>
+        <item>Videl</item>
+        <item>Yamcha</item>
+        <item>Zamasu</item>
+        <item>Z Broly</item>
+    </string-array>
+
+    <string-array name="SFChar">
+        <item>Abigail</item>
+        <item>Akuma</item>
+        <item>Alex</item>
+        <item>Balrog</item>
+        <item>Birdie</item>
+        <item>Blanka</item>
+        <item>Cammy</item>
+        <item>"Chun-Li"</item>
+        <item>Cody</item>
+        <item>Dhalsim</item>
+        <item>Ed</item>
+        <item>"E. Honda"</item>
+        <item>Falke</item>
+        <item>"F.A.N.G"</item>
+        <item>G</item>
+        <item>Gill</item>
+        <item>Guile</item>
+        <item>Ibuki</item>
+        <item>Juri</item>
+        <item>Kage</item>
+        <item>Karin</item>
+        <item>Ken</item>
+        <item>Kolin</item>
+        <item>Laura</item>
+        <item>Lucia</item>
+        <item>"M. Bison"</item>
+        <item>Menat</item>
+        <item>Nash</item>
+        <item>Necalli</item>
+        <item>Poison</item>
+        <item>Rashid</item>
+        <item>"R. Mika"</item>
+        <item>Ryu</item>
+        <item>Sagat</item>
+        <item>Sakura</item>
+        <item>Seth</item>
+        <item>Urien</item>
+        <item>Vega</item>
+        <item>Zangief</item>
+        <item>Zeku</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings_page">SettingsPage</string>
+</resources>

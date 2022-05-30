@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="17dp"
+        app:cardBackgroundColor="@color/cardview_shadow_end_color"
+        android:elevation="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="13dp">
+
+            <com.github.florent37.diagonallayout.DiagonalLayout
+                android:id="@+id/diagonalLayout"
+                android:layout_width="@dimen/_130mdp"
+                android:layout_height="@dimen/_85mdp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+
+                app:diagonal_angle="12"
+                app:diagonal_direction="left"
+                app:diagonal_position="right"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imgThumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/obito_vs_kakashi"
+                    android:contentDescription="TODO" />
+            </com.github.florent37.diagonallayout.DiagonalLayout>
+
+            <TextView
+                android:id="@+id/planTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="12dp"
+                android:text="Eltnum CRAZY Combo"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_17font_mdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/gameName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                android:text="UNICLR"
+                android:textSize="@dimen/_15font_mdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/diagonalLayout"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/characterName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:text="Eltnum"
+                android:textSize="@dimen/_12font_mdp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toTopOf="@+id/planTitle"
+                app:layout_constraintStart_toEndOf="@+id/diagonalLayout"
+                app:layout_constraintTop_toBottomOf="@+id/gameName"
+                app:layout_constraintVertical_bias="0.578" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
