@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MrNouri:DynamicSizes:1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5ef49de3d7aa986ab907d0108f9ef4c5/transformed/jetified-DynamicSizes-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5ef49de3d7aa986ab907d0108f9ef4c5/transformed/jetified-DynamicSizes-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5ef49de3d7aa986ab907d0108f9ef4c5/transformed/jetified-DynamicSizes-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
